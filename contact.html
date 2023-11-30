@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="CSS/style.css" />
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <title>Your Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <div id="menu-container">
+        <div id="menu-wrapper">
+           <div id="hamburger-menu"><span></span><span></span><span></span></div>
+           <!-- hamburger-menu -->
+        </div>
+        <!-- menu-wrapper -->
+        <ul class="menu-list accordion">
+           <li id="nav1" class="toggle accordion-toggle"> 
+              <span class="icon-plus"></span>
+              <a class="menu-link" href="#">Menu</a>
+           </li>
+           <!-- accordion-toggle -->
+           <ul class="menu-submenu accordion-content">
+              <li><a class="head" href="index.html">Home</a></li>
+              <li><a class="head" href="contact.html">Contact</a></li>
+              <li><a class="head" href="#">Education&Projects</a></li>
+           </ul>
+          
+    </header>
+    <section>
+        <h3><a href="mailto:mdenniston99@yahoo.com">Email:Mdenniston99@yahoo.com</a></h3>
+        <h3><a href="tel:727-554-8980">Phone Number:727-554-8980</a></h3>
+        
+    </section>
+    <section>
+      <form action="#" method="post">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required>
+  
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" required>
+  
+        <label for="message">Your Message:</label>
+        <textarea id="message" name="message" rows="6" required></textarea>
+  
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+    <footer>
+        <p>&copy; 2023 Michael Denniston. All rights reserved.</p>
+      </footer>
+    <script src="scripts/script.js"></script>
+  </body>
+  </html>
+</html>
